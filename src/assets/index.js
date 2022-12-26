@@ -85,6 +85,8 @@ export { default as Sunnyside } from './pages/Sunnyside.png';
 export { default as ThreeColumn } from './pages/ThreeColumn.png';
 export { default as Tracking } from './pages/Tracking.png';
 export { default as RecipeBlog } from './pages/RecipeBlog.png';
+export { default as Esportmaniacos } from './pages/esportmaniacos.png';
+export { default as GPT3 } from './pages/GPT.png';
 
 
 
