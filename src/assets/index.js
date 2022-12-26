@@ -7,7 +7,6 @@ export { default as Hand } from './images/hand.svg';
 export { default as HTML } from './images/html.png';
 export { default as JS } from './images/javascript.png';
 export { default as Node } from './images/node.png';
-export { default as Profile } from './images/profile.jpg';
 export { default as React } from './images/react.png';
 export { default as Redux } from './images/redux.png';
 export { default as SASS } from './images/sass.png';
@@ -20,6 +19,7 @@ export { default as Firebase } from './images/firebase.png';
 export { default as Platzi } from './images/platzi.png';
 export { default as Codigo } from './images/codigofacilito.png';
 export { default as devChallenges } from './images/devChallenges.png';
+export { default as Chris } from './images/perfil.png';
 
 /* documents */
 export { default as CV } from './documents/CV.pdf';

@@ -6,7 +6,7 @@ export const base = {
     name: 'Christopher Alvarez',
     job: 'Web Developer',
     description: "I'm web developer based in Venezuela, and i'm very passionate and dedicated to my work.",
-    img: ''
+    img: All.Chris
 }
 
 export const menu = [
