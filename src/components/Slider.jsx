@@ -4,7 +4,6 @@ import { Autoplay, Navigation, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/autoplay';
 import 'swiper/css/pagination';
-import MicroModal from 'micromodal';
 import { basePortfolio, projectsPortfolio } from '../constants';
 
 const Slider = ({origin, direction=false, delay=2000, perview=1, base}) => {
