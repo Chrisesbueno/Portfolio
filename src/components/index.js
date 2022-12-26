@@ -1,0 +1,12 @@
+export { default as AboutInfo } from './AboutInfo';
+export { default as Backend } from './Backend';
+export { default as Button } from './Button';
+export { default as Frontend } from './Frontend';
+export { default as Menu } from './Menu';
+export { default as ScrollDown } from './ScrollDown';
+export { default as Social } from './Social';
+export { default as Tab } from './Tab';
+export { default as Tabs } from './Tabs';
+export { default as ScrollUp } from './ScrollUp';
+export { default as Slider } from './Slider';
+export { default as Card } from './Card';
