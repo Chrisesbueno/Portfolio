@@ -20,6 +20,8 @@ export { default as Platzi } from './images/platzi.png';
 export { default as Codigo } from './images/codigofacilito.png';
 export { default as devChallenges } from './images/devChallenges.png';
 export { default as Chris } from './images/perfil.png';
+export { default as Next } from './images/next.png';
+
 
 /* documents */
 export { default as CV } from './documents/CV.pdf';

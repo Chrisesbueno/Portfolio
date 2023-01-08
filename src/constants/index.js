@@ -61,7 +61,7 @@ export const social = [
     },
     {
         id: 'social-3',
-        link: 'https://twitter.com/chrisnoesbueno',
+        link: 'https://twitter.com/chrisesbueno',
         icon: 'uil uil-twitter-alt',
     },
 ];
@@ -183,6 +183,12 @@ export const skillsFrontend = [
         title: 'Git',
         level: 'Intermediate',
         icon: All.Git,
+    },
+    {
+        id: 'front-10',
+        title: 'Next.js',
+        level: 'Intermediate',
+        icon: All.Next,
     },
 ]
 
