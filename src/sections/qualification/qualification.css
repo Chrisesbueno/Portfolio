@@ -178,8 +178,13 @@
         grid-template-columns: initial;
 
     }
-
+    .qualification {
+        padding: 20px;
+    }
     .qualification__button {
         margin: 0 var(--mb-0-75);
+    }
+    .slider__container-img img {
+        width: 350px;
     }
 }

@@ -21,6 +21,11 @@ export { default as Codigo } from './images/codigofacilito.png';
 export { default as devChallenges } from './images/devChallenges.png';
 export { default as Chris } from './images/perfil.png';
 export { default as Next } from './images/next.png';
+export { default as Expo } from './images/expo.png';
+export { default as ReactN } from './images/reactnative.png';
+export { default as GraphQL } from './images/graphql.png';
+export { default as Amplify } from './images/amplify.png';
+export { default as SmartData } from './images/smartdata.png';
 
 
 /* documents */
@@ -49,6 +54,7 @@ export { default as CursoClosures } from './documents/CursoClosures.png';
 export { default as CursoECMA } from './documents/CursoECMA.png';
 export { default as CursoNPM } from './documents/CursoNPM.png';
 export { default as devResponsive } from './documents/devResponsive.png';
+export { default as CursoCienciaDatos } from './documents/CursoCienciaDatos.png';
 
 /* pages */
 
@@ -89,6 +95,8 @@ export { default as Tracking } from './pages/Tracking.png';
 export { default as RecipeBlog } from './pages/RecipeBlog.png';
 export { default as Esportmaniacos } from './pages/esportmaniacos.png';
 export { default as GPT3 } from './pages/GPT.png';
+export { default as Bybus } from './pages/Bybus.png';
+export { default as Portaty } from './pages/Portaty.png';
 
 
 

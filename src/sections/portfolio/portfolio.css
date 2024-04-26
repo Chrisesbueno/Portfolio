@@ -88,5 +88,9 @@
     .portfolio__container {
         height: 220px;
     }
+    .work .button {
+        position: relative;
+        right: 0%;
+    }
 }
   

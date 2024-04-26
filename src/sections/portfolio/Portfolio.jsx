@@ -10,7 +10,6 @@ const Portfolio = () => {
         <p className="section__subtitle">{basePortfolio.subtitle}</p>
 
         <Slider origin={projectsPortfolio} base='portfolio' />
-
         <Button link={buttons[3].link} title={buttons[3].title} icon={buttons[3].icon} target={`_blank`} />
     </section>
   )

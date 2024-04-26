@@ -4,7 +4,7 @@ import * as All from '../assets/index'
 export const base = {
     nickname: '@chrisesbueno',
     name: 'Christopher Alvarez',
-    job: 'Web Developer',
+    job: 'Web & App Developer',
     description: "I'm web developer based in Venezuela, and i'm very passionate and dedicated to my work.",
     img: All.Chris
 }
@@ -61,7 +61,7 @@ export const social = [
     },
     {
         id: 'social-3',
-        link: 'https://twitter.com/chrisesbueno',
+        link: 'https://twitter.com/kitoesbueno',
         icon: 'uil uil-twitter-alt',
     },
 ];
@@ -97,7 +97,7 @@ export const aboutSpecs = [
     {
         id: 'spec-1',
         title: 'Experience',
-        subtitle: '2+ Years',
+        subtitle: '3+ Years',
         icon: 'bx bx-award',
     },
     {
@@ -117,13 +117,13 @@ export const aboutSpecs = [
 export const baseAbout = {
     title: 'About Me',
     subtitle: 'My introduction',
-    description: 'Frontend developer, I create web pages with UI / UX user interface, I have couple of years of experience and happy with this'
+    description: 'Frontend developer, I create web pages & applications with UI / UX user interface, I have couple of years of experience and happy with this'
 }
 
 export const baseSkills = {
     title: 'Skills',
     subtitle: 'My technical level',
-    description: 'Frontend developer, I create web pages with UI / UX user interface, I have couple of years of experience and happy with this',
+    description: 'Frontend developer, I create web pages & applications with UI / UX user interface, I have couple of years of experience and happy with this',
     frontend: 'Frontend Developer',
     backend: 'Backend Developer',
 
@@ -145,14 +145,26 @@ export const skillsFrontend = [
     {
         id: 'front-3',
         title: 'JavaScript',
-        level: 'Intermediate',
+        level: 'Advanced',
         icon: All.JS,
     },
     {
         id: 'front-4',
         title: 'React.js',
-        level: 'Intermediate',
+        level: 'Advanced',
         icon: All.React,
+    },
+    {
+        id: 'front-8',
+        title: 'Expo',
+        level: 'Intermediate',
+        icon: All.Expo,
+    },
+    {
+        id: 'front-10',
+        title: 'React Native',
+        level: 'Intermediate',
+        icon: All.ReactN,
     },
     {
         id: 'front-5',
@@ -172,12 +184,7 @@ export const skillsFrontend = [
         level: 'Intermediate',
         icon: All.TS,
     },
-    {
-        id: 'front-8',
-        title: 'Flutter',
-        level: 'Basic',
-        icon: All.Flutter,
-    },
+    
     {
         id: 'front-9',
         title: 'Git',
@@ -200,6 +207,24 @@ export const skillsBackend = [
         icon: All.Node,
     },
     {
+        id: 'back-4',
+        title: 'Firebase',
+        level: 'Intermediate',
+        icon: All.Firebase,
+    },
+    {
+        id: 'back-4',
+        title: 'Amplify',
+        level: 'Intermediate',
+        icon: All.Amplify,
+    },
+    {
+        id: 'back-4',
+        title: 'GraphQL',
+        level: 'Intermediate',
+        icon: All.GraphQL,
+    },
+    {
         id: 'back-2',
         title: 'MySQL',
         level: 'Basic',
@@ -211,12 +236,7 @@ export const skillsBackend = [
         level: 'Basic',
         icon: All.SQL,
     },
-    {
-        id: 'back-4',
-        title: 'Firebase',
-        level: 'Intermediate',
-        icon: All.Firebase,
-    },
+   
     {
         id: 'back-5',
         title: 'Sanity',
@@ -275,11 +295,35 @@ export const qualificationEducation = [
         subtitle: 'Online - Courses & Challenges',
         icon: 'uil uil-calendar-alt',
         date: '2021 - Present',
+    },
+    {
+        id: 'edu-5',
+        direction: 'left',
+        title: 'Smart Data',
+        subtitle: 'Specialization in Data Science with Python',
+        icon: 'uil uil-calendar-alt',
+        date: '2023',
         last: 'yes'
     },
 ]
 
 export const qualificationExperience = [
+    {
+        id: 'ex-12',
+        direction: 'right',
+        title: 'Portaty',
+        subtitle: 'Bogota - Colombia',
+        icon: 'uil uil-calendar-alt',
+        date: '2023 - 2024',
+    },
+    {
+        id: 'ex-11',
+        direction: 'left',
+        title: 'ByBus Venezuela',
+        subtitle: 'Portuguesa - Venezuela',
+        icon: 'uil uil-calendar-alt',
+        date: '2023 - 2024',
+    },
     {
         id: 'ex-1',
         direction: 'right',
@@ -335,13 +379,13 @@ export const cardContact = [
     {
         id: 'card-2',
         title: 'WhatsApp',
-        data: '+ 51 900 923 770',
+        data: '+ 58 0426 554 3207',
         icon: 'bx bxl-whatsapp',
     },
     {
         id: 'card-3',
         title: 'Twitter',
-        data: '@chrisesbueno',
+        data: '@kitoesbueno',
         icon: 'bx bxl-twitter',
     },
 ]
@@ -374,6 +418,20 @@ export const projectsPortfolio = [
         img: All.Esportmaniacos,
         repository: 'https://github.com/Chrisesbueno/esportmaniacos-web',
         demo: 'https://esportmaniacos.netlify.app/',
+    },
+    {
+        id: 'me-33',
+        title: 'ByBus Venezuela',
+        img: All.Bybus,
+        repository: 'https://github.com/Chrisesbueno/bybus',
+        demo: 'https://www.bybusvenezuela.com/',
+    },
+    {
+        id: 'me-34',
+        title: 'Portaty',
+        img: All.Portaty,
+        repository: 'https://github.com/Chrisesbueno/portaty-professions',
+        demo: 'https://www.portaty.com/',
     },
     {
         id: 'me-4',
@@ -616,6 +674,16 @@ export const projectsPortfolio = [
 ]
 
 export const certifications = [
+    {
+        id: 'cert-11',
+        platform: 'Smart Data',
+        course: 'Especializacion en Ciencia de Datos con Python',
+        link: {
+            document: All.CursoCienciaDatos,
+            web: 'https://smartdata.com.pe/cursos/ciencia-datos-ia-python-23/'
+        },
+        img: All.SmartData
+    },
     {
         id: 'cert-1',
         platform: 'Codigo Facilito',
